@@ -1,0 +1,26 @@
+/* Make <body> a flex container in a column layout */
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; 
+  margin: 0; 
+}
+
+/* Make <main> a flex container in a row layout */
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto; 
+}
+
+/* <article> takes 2/3 of the space */
+article {
+  flex: 2;
+  overflow-y: auto; 
+}
+
+/* <aside> takes 1/3 of the space */
+aside {
+  flex: 1;
+  overflow-y: auto; 
+}
