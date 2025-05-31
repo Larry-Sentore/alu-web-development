@@ -194,3 +194,298 @@ body {
   }
 }
 
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5; 
+}
+
+
+.quote {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+}
+
+
+.quote-block {
+  background-color: #b668f1; 
+  color: white;
+  padding: 40px 30px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; 
+  max-width: 800px;
+  width: 90%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  gap: 30px;
+}
+
+
+.quote-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+}
+
+
+.quote-text {
+  max-width: 600px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+
+.quote-text blockquote {
+  font-size: 18px;
+  font-style: italic;
+  margin: 0 0 12px 0;
+  line-height: 1.5;
+}
+
+
+.quote-author {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 0 5px 0;
+}
+
+
+.quote-subtitle {
+  font-size: 14px;
+  opacity: 0.85;
+  margin: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    gap: 2rem;
+}
+/* .wrap .blocks iframe{
+    width: 255px;
+    height: 154px;
+} */
+.blocks{
+    display: flex;
+    flex-direction: column;
+    /* background-color: blue; */
+    /* padding: 3rem; */
+    width: 18%;
+}
+iframe{
+    /* background-color: blue; */
+}
+.blocks p{
+    width: 100%;
+}
+h1 span, .wrap h3{
+    color: #7205b1;
+}
+.block .sub_block_1 image{
+    width: 50px;
+    height: 50px;
+}
+.blocks .vid{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.blocks .vid iframe{
+    width: 100%;
+}
+
+body {
+  width: 1440;
+  height: 502;
+  top: 2109px;
+  background-color: #071629;
+  color: #ffffff;
+}
+
+h1 {
+  font-family: Source Sans Pro;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  position: center;
+}
+#purple {
+  color: #c271ff;
+}
+
+h2 {
+  font-size: 25px;
+  width: 256;
+  height: 26;
+  top: 62px;
+  left: 10px;
+  color: #ffffff;
+}
+
+.box {
+  width: 257;
+  height: 153;
+  top: 168px;
+  left: 164px;
+  padding: 1em;
+  text-align: center;
+}
+
+.big_box {
+  display: flex;
+  flex-direction: row;
+}
+
+p {
+  font-size: 14px;
+  width: 215;
+  height: 52;
+  top: 101px;
+  left: 21px;
+}
+
+.my-button {
+  background-color: #c271ff;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 60px;
+  align-content: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#faq-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 80px;
+}
+
+#faq-section {
+  display: flex;
+  flex-direction: column;
+  margin: 80px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+p {
+  color: rgb(0,0,0,0.5);
+}
+
+.footer_section {
+  background: #071629;
+  width: 100%;
+height: 70vh;
+  margin:0px;
+
+}
+
+.logo {
+top: 30px;
+left: 100px;
+position:absolute;
+ 
+}
+#logo_image {
+ border-radius:20px;
+height:40px;
+width:40px
+
+
+}
+#logo_text {
+  width: 114;
+height: 20;
+top: 30px;
+left: 55px;
+font-family: Coiny;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0px;
+color: white;
+  
+
+}
+
+.social_media {
+width: 20%;
+position:absolute;
+height: 20px;
+top: 30px;
+right:70px;
+display:flex;
+gap:10px
+}
+
+#facebook{
+border-radius:20px;
+height:30px;
+width:30px
+}
+#twitter {
+ border-radius:20px;
+height:30px;
+width:30px
+
+}
+#instagram {
+ border-radius:20px;
+height:30px;
+width:30px
+}
+
+p{
+  width: 96;
+height: 15;
+opacity: 0.5;
+font-family: Source Sans Pro;
+font-weight: 400;
+font-size: 12px;
+line-height: 100%;
+letter-spacing: 0px;
+color: #FFFFFF;
+position:absolute;
+left: 530px;
+bottom:50px;
+}
